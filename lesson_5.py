@@ -18,3 +18,4 @@ print(config('DATABASE_URL'))
 commented = config('COMMENTED', default=0, cast=int)
 print(commented)
 print(commented * 2)
+# The end
